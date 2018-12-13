@@ -1,12 +1,12 @@
 ## Analíticas de Kickstarter 
 
-###Integrantes del grupo
+### Integrantes del grupo
 Nombres aqúí
-###Propósito del proyecto
+### Propósito del proyecto
 propósito
-###Ejecución
+### Ejecución
 Explicación de cómo hacemos las pruebas
-###Conclusiones
+### Conclusiones
 conclusiones...
 
 You can use the [editor on GitHub](https://github.com/pablo-mirtor/Kickstarter-Analytics/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
