@@ -24,21 +24,20 @@ Los datos que vamos a tratar han sido extraídos de Kaggle. El dataset es un arc
 Para la ejecución del script no serán necesarias todas las columnas, utilizaremos las que consideremos necesarias para buscar nuestros objetivos.
 
 ### Integrantes del grupo
-El proyecto ha sido realizado por los estudiantes Pablo de Torre Barrio, Pablo Miranda Torres, Alejandro, Joaquín , pertenecientes a la facultad de informática de la Universidad Complutense de Madrid.
+El proyecto ha sido realizado por los estudiantes Pablo de Torre Barrio, Pablo Miranda Torres, Alejandro, y Joaquín, pertenecientes a la facultad de informática de la Universidad Complutense de Madrid.
 
 ### Objetivos
-propósito
+Con nuestro programa pretendemos mostrar cuáles son los tipos de proyectos que más triunfan y los que menos triunfan,y poder servir de guía a las personas que están interesados en proponer un proyecto.
+... más cosas ...
 
 ### Ejecución
-Explicación de cómo hacemos las pruebas
+El script está programado en Python, en el cual usamos la librería de Spark. El objetivo es ejecutarlo sobre una máquina virtual de Amazon.
+... explicar cómo ha ido la ejecución...
+
 
 ### Conclusiones
-conclusiones...
+Como se puede ver los proyectos del tipo A suelen ser bastante exitosos, mientras que los del tipo B no...
 
-
-You can use the [editor on GitHub](https://github.com/pablo-mirtor/Kickstarter-Analytics/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
@@ -62,12 +61,4 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pablo-mirtor/Kickstarter-Analytics/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)..
