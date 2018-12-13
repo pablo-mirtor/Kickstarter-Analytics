@@ -18,8 +18,9 @@ Los datos que vamos a tratar han sido extraídos de Kaggle. El dataset es un arc
 - backers: número de patrocinadores
 - country: país de origen
 - usd pledged: cantidad obtenida (en dólares)
-- usd_pledged_real: cantidad real obtenida (en dólares)
-- usd_goal_real: cantidad objetivo (en dólares)
+- usd_pledged_real: cantidad real obtenida (en dólares).
+- usd_goal_real: cantidad objetivo (en dólares). 
+
 Para la ejecución del script no serán necesarias todas las columnas, utilizaremos las que consideremos necesarias para buscar nuestros objetivos.
 
 ### Integrantes del grupo
