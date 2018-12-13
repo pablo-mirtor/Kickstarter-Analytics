@@ -4,28 +4,23 @@
 Nuestro proyecto consiste en el tratamiento de datos de la plataforma Kickstarter. [Kickstarter](https://www.kickstarter.com/?lang=es) es una plataforma de financiamiento para proyectos creativos de todo tipo: desde películas, juegos y música hasta arte, diseño y tecnología. Kickstarter está lleno de proyectos ambiciosos, innovadores e imaginativos que se hacen realidad gracias al apoyo directo de otras personas. 
 ### Obtención de los datos
 Los datos que vamos a tratar han sido extraídos de Kaggle. El dataset contiene más de 300k filas, en la que cada una indica los datos de un proyecto, en cuyas columnas encontramos: 
-- name
-- category
-- main_category
-- currency
-- deadline
-- goal
-- Goal amount in project currency
-- launched
-- pledged
-- Pledged amount in the project currency
-- state
-- backers
-- country
-- usd pledged
-- Pledged amount in USD (conversion made by KS)
-- usd_pledged_real
-- Pledged amount in USD (conversion made by fixer.io api)
-- usd_goal_real
-
-Goal amount in USD 
+- ID: código numérico que representa el ID del proyecto
+- name: nombre del proyecto.
+- category: categoría (o subcategoría) a la que pertenece el proyecto.
+- main_category: categoría que pertenece de una manera más genérica
+- currency: moneda
+- deadline: fecha límite de financiación
+- goal: objetivo (en la moneda seleccionada)
+- launched: fecha de publicación
+- pledged: cantidad contribuida
+- state: estado del proyecto(calcelado, exitoso, etc.)
+- backers: número de patrocinadores
+- country: país de origen
+- usd pledged: cantidad obtenida (en dólares)
+- usd_pledged_real: cantidad real obtenida (en dólares)
+- usd_goal_real: cantidad objetivo (en dólares)
 ### Integrantes del grupo
-Nombres aqúí
+El proyecto ha sido realizado por los estudiantes Pablo de Torre Barrio, Pablo Miranda Torres, Alejandro, Joaquín , pertenecientes a la facultad de informática de la Universidad Complutense de Madrid.
 ### Propósito del proyecto
 propósito
 ### Ejecución
