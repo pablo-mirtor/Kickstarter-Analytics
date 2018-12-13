@@ -1,7 +1,29 @@
 ## Analíticas de Kickstarter 
 
 ### Introducción
+Nuestro proyecto consiste en el tratamiento de datos de la plataforma Kickstarter. [Kickstarter](https://www.kickstarter.com/?lang=es) es una plataforma de financiamiento para proyectos creativos de todo tipo: desde películas, juegos y música hasta arte, diseño y tecnología. Kickstarter está lleno de proyectos ambiciosos, innovadores e imaginativos que se hacen realidad gracias al apoyo directo de otras personas. 
+### Obtención de los datos
+Los datos que vamos a tratar han sido extraídos de Kaggle. El dataset contiene más de 300k filas, en la que cada una indica los datos de un proyecto, en cuyas columnas encontramos: 
+- name
+- category
+- main_category
+- currency
+- deadline
+- goal
+- Goal amount in project currency
+- launched
+- pledged
+- Pledged amount in the project currency
+- state
+- backers
+- country
+- usd pledged
+- Pledged amount in USD (conversion made by KS)
+- usd_pledged_real
+- Pledged amount in USD (conversion made by fixer.io api)
+- usd_goal_real
 
+Goal amount in USD 
 ### Integrantes del grupo
 Nombres aqúí
 ### Propósito del proyecto
