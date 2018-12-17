@@ -30,19 +30,8 @@ El proyecto ha sido realizado por los estudiantes Pablo de Torre Barrio, Pablo M
 Con nuestro programa pretendemos mostrar cuáles son los tipos de proyectos que más triunfan y los que menos triunfan,y poder servir de guía a las personas que están interesados en proponer un proyecto.
 ... más cosas ...
 
-### Ejecución
-El script está programado en Python, en el cual usamos la librería de Spark. El objetivo es ejecutarlo sobre una máquina virtual de Amazon.
-... explicar cómo ha ido la ejecución...
-
-
-### Conclusiones
-Como se puede ver los proyectos del tipo A suelen ser bastante exitosos, mientras que los del tipo B no...
-
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+### Funcionamiento del código
+explicación del código
 ```markdown
 Syntax highlighted code block
 
@@ -61,4 +50,19 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)..
+### Ejecución
+El script está programado en Python, en el cual usamos la librería de Spark. El objetivo es ejecutarlo sobre una máquina virtual de Amazon.
+... explicar cómo ha ido la ejecución...
+
+
+### Conclusiones
+Como se puede ver los proyectos del tipo A suelen ser bastante exitosos, mientras que los del tipo B no...
+
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+
+
+
