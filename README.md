@@ -31,7 +31,18 @@ Con nuestro programa pretendemos mostrar cuáles son los tipos de proyectos que 
 ... más cosas ...
 
 ### Funcionamiento del código
-explicación del código
+Nuestro proyecto se compone de tres scripts, dos de ellos programados en Python y uno en Scala. En todos utilizamos el algoritmo de map-reduce sobre Spark. Para el correcto funcionamiento de ellos **necesitaremos tener descargado el fichero csv** que contiene los datos de los proyectos, descargables en este enlace (también se encuentran en el repositorio).
+
+#### Script 1
+El primer script tiene el objetivo de encontrar **cuáles son los tipos de proyectos que más funcionan**. Para ello, limpia el csv, obtiene todos los proyectos que han llegado a completarse al 100%, calcula sus beneficios, y los agrupa por categoría. Finalmente, el script genera dos ficheros de salida. El primero, PromedioExito, muestra las categorías con más porcentaje de éxito, mientras que el segundo, Media_Ganancias, muestra cuáles son las categorías que generan más ganancias. Para ejecutar el script basta con ejecutar en nuestra máquina virtual
+```
+`spark-submit kickstarter1.py`
+```
+
+#### Script 2
+El segundo script
+#### Script 3
+
 ```markdown
 Syntax highlighted code block
 
