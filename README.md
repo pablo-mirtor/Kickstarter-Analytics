@@ -7,21 +7,21 @@ Nuestro proyecto consiste en el tratamiento y análisis de datos de la plataform
 Los datos que vamos a tratar han sido extraídos de [Kaggle](https://www.kaggle.com/kemical/kickstarter-projects#ks-projects-201801.csv). El dataset es un archivo de formato csv que contiene 15 columnas y más de 300k filas, en la que cada una indica los datos de un proyecto, en cuyas columnas encontramos: 
 - ID: código numérico que representa el ID del proyecto
 - name: nombre del proyecto.
-- category: categoría (o subcategoría) a la que pertenece el proyecto.
+- **category**: categoría (o subcategoría) a la que pertenece el proyecto.
 - main_category: categoría que pertenece de una manera más genérica
 - currency: moneda
 - deadline: fecha límite de financiación
 - goal: objetivo (en la moneda seleccionada)
 - launched: fecha de publicación
 - pledged: cantidad contribuida
-- state: estado del proyecto(calcelado, exitoso, etc.)
-- backers: número de patrocinadores
-- country: país de origen
+- **state**: estado del proyecto(calcelado, exitoso, etc.)
+- **backers**: número de patrocinadores
+- **country**: país de origen
 - usd pledged: cantidad obtenida (en dólares)
-- usd_pledged_real: cantidad real obtenida (en dólares).
-- usd_goal_real: cantidad objetivo (en dólares). 
+- **usd_pledged_real**: cantidad real obtenida (en dólares).
+- **usd_goal_real**: cantidad objetivo (en dólares). 
 
-Para la ejecución del script no serán necesarias todas las columnas, utilizaremos las que consideremos necesarias para cumplir nuestros objetivos.
+Las columnas marcadas en negrita son las que nos resultarán útiles para nuestro proyecto. Para la ejecución del script no serán necesarias todas las columnas, utilizaremos las que consideremos necesarias para cumplir nuestros objetivos.
 
 ### Objetivos
 Con nuestro programa pretendemos mostrar ciertas estadísticas que resultarán útiles para las personas interesadas en crear un proyecto o para las que quieren saber qué proyectos son más existosos. Nuestros objetivos son:
@@ -61,6 +61,10 @@ Subcategoría,mediaDonaciones,mediaDonacionPorDonante
 ```
 
 ### Conclusiones
+Hemos sido capaces de tratar con estos datos del dataset, a pesar de habernos encontrado con problemas con el formato de ciertos caracteres en el fichero csv. Tras ejecutar los scripts, hemos podido concluir estos hechos sobre Kickstarter:
+- Los videojuegos son los proyectos que más éxito tienen y cantidad recaudan, y distan .
+- Estados Unidos, el país que más financiación obtiene.
+- Las herramientas de fabricación, la subcategoría que recibe mayor cantidad por contribuyente.
 
 
 ### Autores del proyecto
