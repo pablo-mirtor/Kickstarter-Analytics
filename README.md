@@ -21,35 +21,46 @@ Los datos que vamos a tratar han sido extraídos de Kaggle. El dataset es un arc
 - usd_pledged_real: cantidad real obtenida (en dólares).
 - usd_goal_real: cantidad objetivo (en dólares). 
 
-Para la ejecución del script no serán necesarias todas las columnas, utilizaremos las que consideremos necesarias para buscar nuestros objetivos.
+Para la ejecución del script no serán necesarias todas las columnas, utilizaremos las que consideremos necesarias para cumplir nuestros objetivos.
 
 ### Objetivos
-Con nuestro programa pretendemos mostrar cuáles son los tipos de proyectos que más triunfan y los que menos triunfan,y poder servir de guía a las personas que están interesados en proponer un proyecto.
-... más cosas ...
+Con nuestro programa pretendemos mostrar ciertas estadísticas que resultarán útiles para las personas interesadas en crear un proyecto o para las que quieren saber qué proyectos son más existosos. Nuestros objetivos son:
+- Mostrar qué tipos de proyectos tienen mayor porcentaje de éxito,
+- Analizar qué países suelen recibir mayores donaciones, y sus respectivas cantidades.
+- Calcular qué categorías son las que reciben mayor cantidad de donaciones por patrocinador.
 
 ### Funcionamiento del código
 Nuestro proyecto se compone de tres scripts, dos de ellos programados en Python y uno en Scala. En todos utilizamos el algoritmo de map-reduce sobre Spark. Para el correcto funcionamiento de ellos **necesitaremos tener descargado el fichero csv** que contiene los datos de los proyectos, descargables en este enlace (también se encuentran en el repositorio).
 
 #### Script 1
-El primer script tiene el objetivo de encontrar **cuáles son los tipos de proyectos que más funcionan**. Para ello, limpia el csv, obtiene todos los proyectos que han llegado a completarse al 100%, calcula sus beneficios, y los agrupa por categoría. Finalmente, el script genera dos ficheros de salida. El primero, PromedioExito, muestra las categorías con más porcentaje de éxito, mientras que el segundo, Media_Ganancias, muestra cuáles son las categorías que generan más ganancias. Para ejecutar el script basta con ejecutar en nuestra máquina virtual
+El primer script tiene el objetivo de encontrar **cuáles son los tipos de proyectos que más funcionan**. Para ello, limpia el csv, obtiene todos los proyectos que han llegado a completarse al 100%, calcula sus beneficios, y los agrupa por categoría.Para ejecutar el script basta con ejecutar en nuestra máquina virtual. 
 ```
 spark-submit kickstarter1.py
 ```
+El script generará dos ficheros de salida. El primero, PromedioExito, muestra las categorías con más porcentaje de éxito, en el formato
+```
+```
+mientras que el segundo, Media_Ganancias, muestra cuáles son las categorías que generan más ganancias en el siguiente formato:
+```
+
+```
 
 #### Script 2
-El segundo script se encuentra desarrollado en Scala. Este script muestra cuáles son los países que más donaciones reciben y en qué tipo de categoría. Para ello, filtramos los proyectos los proyectos que han recaudado más de 1 millón de dólares y mostramos en un fichero de salida el país, el tipo de proyecto, la cantidad pedida y la cantidad obtenida de cada proyecto. Para ejecutar el script hay que escribir en la terminal de nuestra máquina virtual el comando:
-```
-spark-submit kickstarter2.scala
-```
+El segundo script se encuentra desarrollado en Scala. Este script muestra cuáles son los países que más donaciones reciben y en qué tipo de categoría. Para ello, filtramos los proyectos los proyectos que han recaudado más de 1 millón de dólares y mostramos en un fichero de salida el país, el tipo de proyecto, la cantidad pedida y la cantidad obtenida de cada proyecto. Para ejecutar el script es necesario disponer de la herramienta IntelliJ.
 
 #### Script 3
-El tercer y último script de nuestro proyecto está desarrollado en Python, y utiliza la librería de Spark SQL. Este Script nos muestra la media de donantes que tiene cada categoría. 
+El tercer y último script de nuestro proyecto está desarrollado en Python, y utiliza la librería de Spark SQL. Este Script nos muestra la media de donantes que tiene cada subcategoría, y la media de donación por donante (ordenado de mayor a menor). Para ejecutar el script hay que escribir en la terminal de nuestra máquina virtual el comando:
+```
+spark-submit kickstarter3.py
+```
+Generará una salida que muestre
+```
+Subcategoría,mediaDonaciones,mediaDonacionPorDonante
+```
 
 ### Autores del proyecto
-El proyecto ha sido realizado por los estudiantes: 
+El proyecto ha sido realizado como proyecto final para la asignatura Cloud y Big Data, por los siguientes estudiantes pertenecientes a la facultad de informática de la Universidad Complutense de Madrid: 
 - Joaquín Barrio Lottmann
 - Alejandro Mendoza Silva
 - Pablo Miranda Torres
-- Pablo de Torre Barrio, 
-pertenecientes a la facultad de informática de la Universidad Complutense de Madrid.
-
+- Pablo de Torre Barrio
