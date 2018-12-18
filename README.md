@@ -66,7 +66,7 @@ Generará una salida que muestre
 Subcategoría,mediaDonaciones,mediaDonacionPorDonante
 ```
 
-![useful image](https://github.com/pablo-mirtor/Kickstarter-Analytics/blob/master/resources/script3pic.PNG)
+![](https://github.com/pablo-mirtor/Kickstarter-Analytics/blob/master/resources/script3pic.PNG)
 
 ### Conclusiones
 Hemos sido capaces de tratar con estos datos del dataset, a pesar de habernos encontrado con problemas con el formato de ciertos caracteres en el fichero csv. Tras ejecutar los scripts, hemos podido concluir estos hechos sobre Kickstarter:
