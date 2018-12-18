@@ -36,44 +36,15 @@ Nuestro proyecto se compone de tres scripts, dos de ellos programados en Python 
 #### Script 1
 El primer script tiene el objetivo de encontrar **cuáles son los tipos de proyectos que más funcionan**. Para ello, limpia el csv, obtiene todos los proyectos que han llegado a completarse al 100%, calcula sus beneficios, y los agrupa por categoría. Finalmente, el script genera dos ficheros de salida. El primero, PromedioExito, muestra las categorías con más porcentaje de éxito, mientras que el segundo, Media_Ganancias, muestra cuáles son las categorías que generan más ganancias. Para ejecutar el script basta con ejecutar en nuestra máquina virtual
 ```
-`spark-submit kickstarter1.py`
+spark-submit kickstarter1.py
 ```
 
 #### Script 2
-El segundo script
-#### Script 3
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+El segundo script se encuentra desarrollado en Scala. Este script muestra cuáles son los países que más donaciones reciben y en qué tipo de categoría. Para ello, filtramos los proyectos los proyectos que han recaudado más de 1 millón de dólares y mostramos en un fichero de salida el país, el tipo de proyecto, la cantidad pedida y la cantidad obtenida de cada proyecto. Para ejecutar el script hay que escribir en la terminal de nuestra máquina virtual el comando:
+```
+spark-submit kickstarter2.scala
 ```
 
-### Ejecución
-El script está programado en Python, en el cual usamos la librería de Spark. El objetivo es ejecutarlo sobre una máquina virtual de Amazon.
-... explicar cómo ha ido la ejecución...
-
-
-### Conclusiones
-Como se puede ver los proyectos del tipo A suelen ser bastante exitosos, mientras que los del tipo B no...
-
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-
-
+#### Script 3
+El tercer y último script de nuestro proyecto está desarrollado en Python, y utiliza la librería de Spark SQL. Este Script nos muestra la media de donantes que tiene cada categoría. 
 
