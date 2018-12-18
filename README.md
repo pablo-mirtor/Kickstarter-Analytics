@@ -43,12 +43,15 @@ mientras que el segundo, Media_Ganancias, muestra cuáles las categorías ordena
 PorcentajeÉxito,MediaGanancias,Categoría,
 
 ```
+![](https://github.com/pablo-mirtor/Kickstarter-Analytics/blob/master/resources/script11pic.PNG)
+![](https://github.com/pablo-mirtor/Kickstarter-Analytics/blob/master/resources/script12pic.PNG)
 
 #### Script 2 - Países más financiados
 El segundo script se encuentra desarrollado en Scala. Este script muestra cuáles son los países que más donaciones reciben y en qué tipo de categoría. Para ello, filtramos los proyectos los proyectos que han recaudado más de 1 millón de dólares y mostramos en un fichero de salida el país, el tipo de proyecto, la cantidad pedida y la cantidad obtenida de cada proyecto. Para ejecutar el script es necesario disponer de la herramienta IntelliJ. El script generará una salida que muestre:
 ```
 País,Categoría,CantidadObjetivo,CantidadObtenida
 ```
+![](https://github.com/pablo-mirtor/Kickstarter-Analytics/blob/master/resources/script2pic.PNG)
 
 #### Script 3 - Media de donaciones
 El tercer y último script de nuestro proyecto está desarrollado en Python, y utiliza la librería de Spark SQL. Este Script nos muestra la media de donantes que tiene cada subcategoría, y la media de donación por donante (ordenado de mayor a menor). Para ejecutar el script hay que escribir en la terminal de nuestra máquina virtual el comando:
