@@ -63,16 +63,17 @@ spark-submit kickstarter3.py
 ```
 Generará una salida que muestre
 ```
-Subcategoría,mediaDonaciones,mediaDonacionPorDonante
+Subcategoría,mediaDonado,mediaDonadores,mediaDonacionPorDonante
 ```
 
 ![](https://github.com/pablo-mirtor/Kickstarter-Analytics/blob/master/resources/script3pic.PNG)
 
 ### Conclusiones
 Hemos sido capaces de tratar con estos datos del dataset, a pesar de habernos encontrado con problemas con el formato de ciertos caracteres en el fichero csv. Tras ejecutar los scripts, hemos podido concluir estos hechos sobre Kickstarter:
-- Los videojuegos son los proyectos que más éxito tienen y cantidad recaudan, y distan .
+- Los videojuegos son los proyectos que más éxito tienen y cantidad recaudan.
 - Estados Unidos, el país que más financiación obtiene.
 - Las herramientas de fabricación, la subcategoría que recibe mayor cantidad por contribuyente.
+También podríamos afirmar que nuestro proyecto puede ser útil para analizar futuros datasets de Kaggle, y se podrá ir estudiando cómo evoluciona el mundo de las donaciones.
 
 
 ### Autores del proyecto
