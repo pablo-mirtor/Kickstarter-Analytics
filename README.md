@@ -43,7 +43,9 @@ mientras que el segundo, Media_Ganancias, muestra cuáles las categorías ordena
 PorcentajeÉxito,MediaGanancias,Categoría,
 
 ```
+
 ![](https://github.com/pablo-mirtor/Kickstarter-Analytics/blob/master/resources/script11pic.PNG)
+
 ![](https://github.com/pablo-mirtor/Kickstarter-Analytics/blob/master/resources/script12pic.PNG)
 
 #### Script 2 - Países más financiados
@@ -51,6 +53,7 @@ El segundo script se encuentra desarrollado en Scala. Este script muestra cuále
 ```
 País,Categoría,CantidadObjetivo,CantidadObtenida
 ```
+
 ![](https://github.com/pablo-mirtor/Kickstarter-Analytics/blob/master/resources/script2pic.PNG)
 
 #### Script 3 - Media de donaciones
@@ -62,6 +65,7 @@ Generará una salida que muestre
 ```
 Subcategoría,mediaDonaciones,mediaDonacionPorDonante
 ```
+
 ![useful image](https://github.com/pablo-mirtor/Kickstarter-Analytics/blob/master/resources/script3pic.PNG)
 
 ### Conclusiones
