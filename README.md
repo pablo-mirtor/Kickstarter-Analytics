@@ -73,6 +73,7 @@ Hemos sido capaces de tratar con estos datos del dataset, a pesar de habernos en
 - Los videojuegos son los proyectos que más éxito tienen y cantidad recaudan.
 - Estados Unidos, el país que más financiación obtiene.
 - Las herramientas de fabricación, la subcategoría que recibe mayor cantidad por contribuyente.
+
 También podríamos afirmar que nuestro proyecto puede ser útil para analizar futuros datasets de Kaggle, y se podrá ir estudiando cómo evoluciona el mundo de las donaciones.
 
 
