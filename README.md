@@ -23,9 +23,6 @@ Los datos que vamos a tratar han sido extraídos de Kaggle. El dataset es un arc
 
 Para la ejecución del script no serán necesarias todas las columnas, utilizaremos las que consideremos necesarias para buscar nuestros objetivos.
 
-### Integrantes del grupo
-El proyecto ha sido realizado por los estudiantes Pablo de Torre Barrio, Pablo Miranda Torres, Alejandro, y Joaquín, pertenecientes a la facultad de informática de la Universidad Complutense de Madrid.
-
 ### Objetivos
 Con nuestro programa pretendemos mostrar cuáles son los tipos de proyectos que más triunfan y los que menos triunfan,y poder servir de guía a las personas que están interesados en proponer un proyecto.
 ... más cosas ...
@@ -47,4 +44,12 @@ spark-submit kickstarter2.scala
 
 #### Script 3
 El tercer y último script de nuestro proyecto está desarrollado en Python, y utiliza la librería de Spark SQL. Este Script nos muestra la media de donantes que tiene cada categoría. 
+
+### Autores del proyecto
+El proyecto ha sido realizado por los estudiantes: 
+- Joaquín Barrio Lottmann
+- Alejandro Mendoza Silva
+- Pablo Miranda Torres
+- Pablo de Torre Barrio, 
+pertenecientes a la facultad de informática de la Universidad Complutense de Madrid.
 
