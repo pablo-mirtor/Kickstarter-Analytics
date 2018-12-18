@@ -1,7 +1,7 @@
 ## Analíticas de Kickstarter 
 
 ### Introducción
-Nuestro proyecto consiste en el tratamiento y análisis de datos de la plataforma Kickstarter. [Kickstarter](https://www.kickstarter.com/?lang=es) es una plataforma de financiamiento para proyectos creativos de todo tipo: desde películas, juegos y música hasta arte, diseño y tecnología. Kickstarter está lleno de proyectos ambiciosos, innovadores e imaginativos que se hacen realidad gracias al apoyo directo de otras personas. 
+[Nuestro proyecto](https://github.com/PabloDeTorre/StartupsAnatlytics) consiste en el tratamiento y análisis de datos de la plataforma Kickstarter. [Kickstarter](https://www.kickstarter.com/?lang=es) es una plataforma de financiamiento para proyectos creativos de todo tipo: desde películas, juegos y música hasta arte, diseño y tecnología. Kickstarter está lleno de proyectos ambiciosos, innovadores e imaginativos que se hacen realidad gracias al apoyo directo de otras personas. 
 
 ### Obtención de los datos
 Los datos que vamos a tratar han sido extraídos de [Kaggle](https://www.kaggle.com/kemical/kickstarter-projects#ks-projects-201801.csv). El dataset es un archivo de formato csv que contiene 15 columnas y más de 300k filas, en la que cada una indica los datos de un proyecto, en cuyas columnas encontramos: 
